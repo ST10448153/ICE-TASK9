@@ -16,61 +16,69 @@ public class Calculator {
      
      
      public static int add(){
+         //user is prompted to enter number
           String num1 = JOptionPane.showInputDialog("Enter your first number:");
           System.out.println();
           
         
           String num2 = JOptionPane.showInputDialog("enter your second number: ");
           int num = Integer.parseInt(num1);
-          
+          //two values that contain string aree then converted to integers
           int a = Integer.parseInt(num1);
           int b = Integer.parseInt(num2);
           int add = a + b;
+          //the output is displayed on screen
           JOptionPane.showMessageDialog(null, "The sum of these numbers is: "+add);
           return a+ b;
      }
      
      public static int subtract(){
+         //user is prompted to enter number
           String num1 = JOptionPane.showInputDialog("Enter your first number:");
           System.out.println();
           
         
           String num2 = JOptionPane.showInputDialog("enter your second number: ");
           int num = Integer.parseInt(num1);
-          
+          //two values that contain string aree then converted to integers
           int a = Integer.parseInt(num1);
           int b = Integer.parseInt(num2);
           int subtract = a - b;
+          //the output is displayed on screen
           JOptionPane.showMessageDialog(null, "The difference of these numbers is: "+subtract);
           return a - b;
      }
      
      public static int multiply(){
+         //user is prompted to enter number
           String num1 = JOptionPane.showInputDialog("Enter your first number:");
           System.out.println();
           
         
           String num2 = JOptionPane.showInputDialog("enter your second number: ");
           int num = Integer.parseInt(num1);
-          
+          //two values that contain string aree then converted to integers
           int a = Integer.parseInt(num1);
           int b = Integer.parseInt(num2);
           int multiply = a * b;
+          //the output is displayed on screen
           JOptionPane.showMessageDialog(null, "The multiplication of these numbers is: "+multiply);
           return multiply;
      }
      
      public static int divide(){
+         //user is prompted to enter number
           String num1 = JOptionPane.showInputDialog("Enter your first number:");
           System.out.println();
           
         
           String num2 = JOptionPane.showInputDialog("enter your second number: ");
           int num = Integer.parseInt(num1);
-          
+          //two values that contain string aree then converted to integers
           int a = Integer.parseInt(num1);
           int b = Integer.parseInt(num2);
           int divide = a / b;
+          //the output is displayed on screen
           JOptionPane.showMessageDialog(null, "The division of these numbers is: "+divide);
           return a / b;
      }
