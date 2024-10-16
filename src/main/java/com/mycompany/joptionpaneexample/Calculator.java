@@ -10,13 +10,7 @@ import javax.swing.*;
  * @author RC_Student_lab
  */
 
-/*
-Create a class called calculator that has four methods: add(), subtract(), divide() and multiply()
-all these method returns a value.Using JOptionPane, accepts input of two numbers from the user, display
-a menu for a user to choose what calculaton they want to perform on the two numbers. Also use a while loop
-so that a user can choose other operations they would want to perform on the numbers, Do not use 
-if statements but switch case statements.the application should run until user enters zero as an option.
-*/
+
 public class Calculator {
 
      
@@ -32,7 +26,7 @@ public class Calculator {
           int a = Integer.parseInt(num1);
           int b = Integer.parseInt(num2);
           int add = a + b;
-          JOptionPane.showMessageDialog(null, add);
+          JOptionPane.showMessageDialog(null, "The sum of these numbers is: "+add);
           return a+ b;
      }
      
@@ -47,39 +41,11 @@ public class Calculator {
           int a = Integer.parseInt(num1);
           int b = Integer.parseInt(num2);
           int subtract = a - b;
-          JOptionPane.showMessageDialog(null, subtract);
+          JOptionPane.showMessageDialog(null, "The difference of these numbers is: "+subtract);
           return a - b;
      }
      
-     public static int multiply(){
-          String num1 = JOptionPane.showInputDialog("Enter your first number:");
-          System.out.println();
-          
-        
-          String num2 = JOptionPane.showInputDialog("enter your second number: ");
-          int num = Integer.parseInt(num1);
-          
-          int a = Integer.parseInt(num1);
-          int b = Integer.parseInt(num2);
-          int multiply = a * b;
-          JOptionPane.showMessageDialog(null, multiply);
-          return multiply;
-     }
-     
-     public static int divide(){
-          String num1 = JOptionPane.showInputDialog("Enter your first number:");
-          System.out.println();
-          
-        
-          String num2 = JOptionPane.showInputDialog("enter your second number: ");
-          int num = Integer.parseInt(num1);
-          
-          int a = Integer.parseInt(num1);
-          int b = Integer.parseInt(num2);
-          int divide = a / b;
-          JOptionPane.showMessageDialog(null, divide);
-          return a / b;
-     }
+    
       public static void main(String[] args) {
      
         
