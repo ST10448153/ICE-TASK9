@@ -60,7 +60,20 @@ public class Calculator {
           return multiply;
      }
      
-     
+     public static int divide(){
+          String num1 = JOptionPane.showInputDialog("Enter your first number:");
+          System.out.println();
+          
+        
+          String num2 = JOptionPane.showInputDialog("enter your second number: ");
+          int num = Integer.parseInt(num1);
+          
+          int a = Integer.parseInt(num1);
+          int b = Integer.parseInt(num2);
+          int divide = a / b;
+          JOptionPane.showMessageDialog(null, "The division of these numbers is: "+divide);
+          return a / b;
+     }
       public static void main(String[] args) {
      
         
